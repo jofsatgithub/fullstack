@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>GITHUB LOGIN</title>
+        <style>
+            .container{
+                width: 300px; 
+                margin: 50px auto; 
+                padding: 20px; 
+                border: 1px solid #ccc; 
+                border-radius: 8px; 
+            }
+            img{
+                width: 75px;
+                height: auto;
+            }
+            .signbutton{
+                padding: 15px; 
+                width: 300px; 
+                height: 30px; 
+                background-color: green;
+                color: white; 
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <center><img src="githublogo.png"></center>
+        <center><h1>Sign in to GitHub</h1></center>
+        <div class="container">
+        <form method="post">
+            <p>Username or email address</p>
+            <p><input type="text" name="name" size="35" maxlength="30"></p>
+            <p>Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="forgotpass.html">Forgot password?</a></p>
+            <p><input type="password" name="pass" size="35" maxlength="30"></p>
+            <p><input type="submit" name="sign" value="Sign in" class="signbutton">
+        </form>
+        </div>
+        <div class="container">
+        <form method="post">
+            <p>Sign in with passkey</p>
+            <p>New To GitHub? <a href="newuser.html">Create an account</a></p>
+        </form>
+        </div>
+</body>
+</html>
